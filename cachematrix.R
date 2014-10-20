@@ -3,7 +3,7 @@
 
 ## Create a matrix that can cache its inverse. On creation the inverse is not calculated.
 
-makeCacheMatrix <- function(x = matrix(c(1, 0, 0, 1), nrow=2,ncol=2,byrow=TRUE)) {
+makeCacheMatrix <- function(x = matrix()) {
         mat <- NULL
         set <- function(y) {
                 x <<- y
